@@ -16,7 +16,8 @@ RUN pip install \
         ffmpeg-python \
         mxnet-cu110==1.8 \
         tensorflow-gpu==2.4 \
-        tensorflow_hub
+        tensorflow_hub \
+        protobuf==3.20.0
 
 ENV LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 
